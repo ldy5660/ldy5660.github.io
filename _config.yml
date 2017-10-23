@@ -1,0 +1,48 @@
+title: My personal blog - ldy
+email: ldy5660@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ldy5660.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: 吕东雨 # add your name
+author-pic: adam-face.jpg
+about-author: My name is  ldy. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 2 years.
+
+# Contact links
+email: ldy5660@gmail.com # Add your Email address
+phone: 18257501608 # Add your Phone number
+website: # Add your website, do not add http://
+linkedin: # Add your Linkedin handle
+github: ldy5660 # Add your Github handle
+twitter: '@ldy5366' # Add your Twitter handle
+facebook: # Add your Facebook handle
+instagram: # Add your Instagram handle
+pinterest: # Add your Pinterest handle
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: mr-brown # Add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
